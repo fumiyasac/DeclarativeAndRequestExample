@@ -14,6 +14,10 @@
 		DE427455298012200003DCE3 /* DeclarativeAndRequestExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE427454298012200003DCE3 /* DeclarativeAndRequestExampleTests.swift */; };
 		DE42745F298012200003DCE3 /* DeclarativeAndRequestExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42745E298012200003DCE3 /* DeclarativeAndRequestExampleUITests.swift */; };
 		DE427461298012200003DCE3 /* DeclarativeAndRequestExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE427460298012200003DCE3 /* DeclarativeAndRequestExampleUITestsLaunchTests.swift */; };
+		DE42746F298013840003DCE3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DE42746E298013840003DCE3 /* Realm */; };
+		DE427471298013840003DCE3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE427470298013840003DCE3 /* RealmSwift */; };
+		DE427474298013CD0003DCE3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DE427473298013CD0003DCE3 /* SDWebImageSwiftUI */; };
+		DE427477298014950003DCE3 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE427476298014950003DCE3 /* Apollo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE427474298013CD0003DCE3 /* SDWebImageSwiftUI in Frameworks */,
+				DE427477298014950003DCE3 /* Apollo in Frameworks */,
+				DE427471298013840003DCE3 /* RealmSwift in Frameworks */,
+				DE42746F298013840003DCE3 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +151,12 @@
 			dependencies = (
 			);
 			name = DeclarativeAndRequestExample;
+			packageProductDependencies = (
+				DE42746E298013840003DCE3 /* Realm */,
+				DE427470298013840003DCE3 /* RealmSwift */,
+				DE427473298013CD0003DCE3 /* SDWebImageSwiftUI */,
+				DE427476298014950003DCE3 /* Apollo */,
+			);
 			productName = DeclarativeAndRequestExample;
 			productReference = DE4274402980121F0003DCE3 /* DeclarativeAndRequestExample.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +229,11 @@
 				Base,
 			);
 			mainGroup = DE4274372980121F0003DCE3;
+			packageReferences = (
+				DE42746D298013840003DCE3 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				DE427472298013CD0003DCE3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				DE427475298014950003DCE3 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = DE4274412980121F0003DCE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +602,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE42746D298013840003DCE3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.34.1;
+			};
+		};
+		DE427472298013CD0003DCE3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		DE427475298014950003DCE3 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE42746E298013840003DCE3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE42746D298013840003DCE3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		DE427470298013840003DCE3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE42746D298013840003DCE3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		DE427473298013CD0003DCE3 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE427472298013CD0003DCE3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		DE427476298014950003DCE3 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE427475298014950003DCE3 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE4274382980121F0003DCE3 /* Project object */;
 }
