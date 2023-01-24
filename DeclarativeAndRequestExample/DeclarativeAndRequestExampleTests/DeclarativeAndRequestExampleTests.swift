@@ -1,14 +1,14 @@
 //
-//  DeclarativeComponentWithRealmSampleTests.swift
-//  DeclarativeComponentWithRealmSampleTests
+//  DeclarativeAndRequestExampleTests.swift
+//  DeclarativeAndRequestExampleTests
 //
-//  Created by 酒井文也 on 2022/06/19.
+//  Created by 酒井文也 on 2023/01/24.
 //
 
 import XCTest
-@testable import DeclarativeComponentWithRealmSample
+@testable import DeclarativeAndRequestExample
 
-class DeclarativeComponentWithRealmSampleTests: XCTestCase {
+final class DeclarativeAndRequestExampleTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

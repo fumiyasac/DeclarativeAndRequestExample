@@ -1,13 +1,13 @@
 //
-//  DeclarativeComponentWithRealmSampleUITestsLaunchTests.swift
-//  DeclarativeComponentWithRealmSampleUITests
+//  DeclarativeAndRequestExampleUITestsLaunchTests.swift
+//  DeclarativeAndRequestExampleUITests
 //
-//  Created by 酒井文也 on 2022/06/19.
+//  Created by 酒井文也 on 2023/01/24.
 //
 
 import XCTest
 
-class DeclarativeComponentWithRealmSampleUITestsLaunchTests: XCTestCase {
+final class DeclarativeAndRequestExampleUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
