@@ -20,9 +20,6 @@
 		DE427477298014950003DCE3 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE427476298014950003DCE3 /* Apollo */; };
 		DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */; };
 		DEEAC1C129FFB59C00BCA5C9 /* CollectionViewPagingLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1C029FFB59C00BCA5C9 /* CollectionViewPagingLayout */; };
-		DEEAC1C429FFB6EE00BCA5C9 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1C329FFB6EE00BCA5C9 /* Quick */; };
-		DEEAC1C729FFB70A00BCA5C9 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1C629FFB70A00BCA5C9 /* Nimble */; };
-		DEEAC1CA29FFB73000BCA5C9 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1C929FFB73000BCA5C9 /* ViewInspector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,12 +60,9 @@
 				DE427474298013CD0003DCE3 /* SDWebImageSwiftUI in Frameworks */,
 				DE427477298014950003DCE3 /* Apollo in Frameworks */,
 				DE427471298013840003DCE3 /* RealmSwift in Frameworks */,
-				DEEAC1C429FFB6EE00BCA5C9 /* Quick in Frameworks */,
 				DE42746F298013840003DCE3 /* Realm in Frameworks */,
-				DEEAC1C729FFB70A00BCA5C9 /* Nimble in Frameworks */,
 				DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */,
 				DEEAC1C129FFB59C00BCA5C9 /* CollectionViewPagingLayout in Frameworks */,
-				DEEAC1CA29FFB73000BCA5C9 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,9 +162,6 @@
 				DE427476298014950003DCE3 /* Apollo */,
 				DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */,
 				DEEAC1C029FFB59C00BCA5C9 /* CollectionViewPagingLayout */,
-				DEEAC1C329FFB6EE00BCA5C9 /* Quick */,
-				DEEAC1C629FFB70A00BCA5C9 /* Nimble */,
-				DEEAC1C929FFB73000BCA5C9 /* ViewInspector */,
 			);
 			productName = DeclarativeAndRequestExample;
 			productReference = DE4274402980121F0003DCE3 /* DeclarativeAndRequestExample.app */;
@@ -250,9 +241,6 @@
 				DE427475298014950003DCE3 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				DEEAC1BC29FFB32B00BCA5C9 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				DEEAC1BF29FFB59C00BCA5C9 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */,
-				DEEAC1C229FFB6EE00BCA5C9 /* XCRemoteSwiftPackageReference "Quick" */,
-				DEEAC1C529FFB70A00BCA5C9 /* XCRemoteSwiftPackageReference "Nimble" */,
-				DEEAC1C829FFB73000BCA5C9 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = DE4274412980121F0003DCE3 /* Products */;
 			projectDirPath = "";
@@ -384,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -438,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -664,30 +652,6 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		DEEAC1C229FFB6EE00BCA5C9 /* XCRemoteSwiftPackageReference "Quick" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Quick.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.1.0;
-			};
-		};
-		DEEAC1C529FFB70A00BCA5C9 /* XCRemoteSwiftPackageReference "Nimble" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Nimble.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 12.0.0;
-			};
-		};
-		DEEAC1C829FFB73000BCA5C9 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nalexn/ViewInspector.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.5;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -720,21 +684,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DEEAC1BF29FFB59C00BCA5C9 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */;
 			productName = CollectionViewPagingLayout;
-		};
-		DEEAC1C329FFB6EE00BCA5C9 /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEAC1C229FFB6EE00BCA5C9 /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		DEEAC1C629FFB70A00BCA5C9 /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEAC1C529FFB70A00BCA5C9 /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
-		DEEAC1C929FFB73000BCA5C9 /* ViewInspector */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEAC1C829FFB73000BCA5C9 /* XCRemoteSwiftPackageReference "ViewInspector" */;
-			productName = ViewInspector;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
