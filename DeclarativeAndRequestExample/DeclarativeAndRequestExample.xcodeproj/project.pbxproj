@@ -106,9 +106,12 @@
 		DE4274422980121F0003DCE3 /* DeclarativeAndRequestExample */ = {
 			isa = PBXGroup;
 			children = (
-				DE4274432980121F0003DCE3 /* DeclarativeAndRequestExampleApp.swift */,
-				DE4274452980121F0003DCE3 /* ContentView.swift */,
 				DE427447298012200003DCE3 /* Assets.xcassets */,
+				DE4274452980121F0003DCE3 /* ContentView.swift */,
+				DE4274432980121F0003DCE3 /* DeclarativeAndRequestExampleApp.swift */,
+				DEEAC2062A0661AE00BCA5C9 /* Domain */,
+				DEEAC2042A06617000BCA5C9 /* Screen */,
+				DEEAC2052A06619100BCA5C9 /* View */,
 				DE427449298012200003DCE3 /* Preview Content */,
 			);
 			path = DeclarativeAndRequestExample;
@@ -137,6 +140,59 @@
 				DE427460298012200003DCE3 /* DeclarativeAndRequestExampleUITestsLaunchTests.swift */,
 			);
 			path = DeclarativeAndRequestExampleUITests;
+			sourceTree = "<group>";
+		};
+		DEEAC2002A06612B00BCA5C9 /* MainScreenView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainScreenView;
+			sourceTree = "<group>";
+		};
+		DEEAC2012A06614400BCA5C9 /* FeaturedScreenView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FeaturedScreenView;
+			sourceTree = "<group>";
+		};
+		DEEAC2022A06615300BCA5C9 /* GalleryScreenView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GalleryScreenView;
+			sourceTree = "<group>";
+		};
+		DEEAC2032A06616200BCA5C9 /* FavoriteScreenView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FavoriteScreenView;
+			sourceTree = "<group>";
+		};
+		DEEAC2042A06617000BCA5C9 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DEEAC2032A06616200BCA5C9 /* FavoriteScreenView */,
+				DEEAC2022A06615300BCA5C9 /* GalleryScreenView */,
+				DEEAC2012A06614400BCA5C9 /* FeaturedScreenView */,
+				DEEAC2002A06612B00BCA5C9 /* MainScreenView */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		DEEAC2052A06619100BCA5C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEEAC2062A0661AE00BCA5C9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
