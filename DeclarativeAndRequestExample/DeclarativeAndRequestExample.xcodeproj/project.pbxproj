@@ -110,8 +110,10 @@
 				DE4274452980121F0003DCE3 /* ContentView.swift */,
 				DE4274432980121F0003DCE3 /* DeclarativeAndRequestExampleApp.swift */,
 				DEEAC2062A0661AE00BCA5C9 /* Domain */,
+				DEEAC2082A06BB2200BCA5C9 /* GraphQL */,
 				DEEAC2042A06617000BCA5C9 /* Screen */,
 				DEEAC2052A06619100BCA5C9 /* View */,
+				DEEAC2072A06BB1400BCA5C9 /* ViewModel */,
 				DE427449298012200003DCE3 /* Preview Content */,
 			);
 			path = DeclarativeAndRequestExample;
@@ -193,6 +195,20 @@
 			children = (
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		DEEAC2072A06BB1400BCA5C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DEEAC2082A06BB2200BCA5C9 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GraphQL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
