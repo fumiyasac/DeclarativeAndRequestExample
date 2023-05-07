@@ -20,6 +20,7 @@
 		DE427477298014950003DCE3 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE427476298014950003DCE3 /* Apollo */; };
 		DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */; };
 		DEEAC1C129FFB59C00BCA5C9 /* CollectionViewPagingLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1C029FFB59C00BCA5C9 /* CollectionViewPagingLayout */; };
+		DEEAC20B2A07C3AC00BCA5C9 /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC20A2A07C3AC00BCA5C9 /* Parchment */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 			files = (
 				DE427474298013CD0003DCE3 /* SDWebImageSwiftUI in Frameworks */,
 				DE427477298014950003DCE3 /* Apollo in Frameworks */,
+				DEEAC20B2A07C3AC00BCA5C9 /* Parchment in Frameworks */,
 				DE427471298013840003DCE3 /* RealmSwift in Frameworks */,
 				DE42746F298013840003DCE3 /* Realm in Frameworks */,
 				DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */,
@@ -234,6 +236,7 @@
 				DE427476298014950003DCE3 /* Apollo */,
 				DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */,
 				DEEAC1C029FFB59C00BCA5C9 /* CollectionViewPagingLayout */,
+				DEEAC20A2A07C3AC00BCA5C9 /* Parchment */,
 			);
 			productName = DeclarativeAndRequestExample;
 			productReference = DE4274402980121F0003DCE3 /* DeclarativeAndRequestExample.app */;
@@ -313,6 +316,7 @@
 				DE427475298014950003DCE3 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				DEEAC1BC29FFB32B00BCA5C9 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				DEEAC1BF29FFB59C00BCA5C9 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */,
+				DEEAC2092A07C3AC00BCA5C9 /* XCRemoteSwiftPackageReference "Parchment" */,
 			);
 			productRefGroup = DE4274412980121F0003DCE3 /* Products */;
 			projectDirPath = "";
@@ -722,6 +726,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		DEEAC2092A07C3AC00BCA5C9 /* XCRemoteSwiftPackageReference "Parchment" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rechsteiner/Parchment.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -754,6 +766,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DEEAC1BF29FFB59C00BCA5C9 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */;
 			productName = CollectionViewPagingLayout;
+		};
+		DEEAC20A2A07C3AC00BCA5C9 /* Parchment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEEAC2092A07C3AC00BCA5C9 /* XCRemoteSwiftPackageReference "Parchment" */;
+			productName = Parchment;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
