@@ -21,6 +21,8 @@
 		DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */; };
 		DEEAC1C129FFB59C00BCA5C9 /* CollectionViewPagingLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1C029FFB59C00BCA5C9 /* CollectionViewPagingLayout */; };
 		DEEAC20B2A07C3AC00BCA5C9 /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC20A2A07C3AC00BCA5C9 /* Parchment */; };
+		DEEAC20F2A09DB6900BCA5C9 /* RealmAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC20E2A09DB6900BCA5C9 /* RealmAccessManager.swift */; };
+		DEEAC2112A09DCC800BCA5C9 /* KeychainAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DE42745A298012200003DCE3 /* DeclarativeAndRequestExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeclarativeAndRequestExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE42745E298012200003DCE3 /* DeclarativeAndRequestExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclarativeAndRequestExampleUITests.swift; sourceTree = "<group>"; };
 		DE427460298012200003DCE3 /* DeclarativeAndRequestExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclarativeAndRequestExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DEEAC20E2A09DB6900BCA5C9 /* RealmAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAccessManager.swift; sourceTree = "<group>"; };
+		DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAccessManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				DE4274452980121F0003DCE3 /* ContentView.swift */,
 				DE4274432980121F0003DCE3 /* DeclarativeAndRequestExampleApp.swift */,
 				DEEAC2062A0661AE00BCA5C9 /* Domain */,
+				DEEAC20D2A09DB4D00BCA5C9 /* Infrastructure */,
 				DEEAC2082A06BB2200BCA5C9 /* GraphQL */,
 				DEEAC2042A06617000BCA5C9 /* Screen */,
 				DEEAC2052A06619100BCA5C9 /* View */,
@@ -195,6 +200,7 @@
 		DEEAC2062A0661AE00BCA5C9 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				DEEAC20C2A09DABE00BCA5C9 /* Repository */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -211,6 +217,22 @@
 			children = (
 			);
 			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		DEEAC20C2A09DABE00BCA5C9 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DEEAC20D2A09DB4D00BCA5C9 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				DEEAC20E2A09DB6900BCA5C9 /* RealmAccessManager.swift */,
+				DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +384,8 @@
 			files = (
 				DE4274462980121F0003DCE3 /* ContentView.swift in Sources */,
 				DE4274442980121F0003DCE3 /* DeclarativeAndRequestExampleApp.swift in Sources */,
+				DEEAC20F2A09DB6900BCA5C9 /* RealmAccessManager.swift in Sources */,
+				DEEAC2112A09DCC800BCA5C9 /* KeychainAccessManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
