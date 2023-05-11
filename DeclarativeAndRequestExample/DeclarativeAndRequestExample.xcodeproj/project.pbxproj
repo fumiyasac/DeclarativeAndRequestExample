@@ -31,6 +31,7 @@
 		DEEAC21F2A0B91C400BCA5C9 /* NewsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC21E2A0B91C400BCA5C9 /* NewsScreenView.swift */; };
 		DEEAC2222A0B91F400BCA5C9 /* FeaturedDetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2212A0B91F400BCA5C9 /* FeaturedDetailScreenView.swift */; };
 		DEEAC2252A0B92DA00BCA5C9 /* ArticleListViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2242A0B92DA00BCA5C9 /* ArticleListViewScreen.swift */; };
+		DEEAC2272A0D0D0D00BCA5C9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2262A0D0D0D00BCA5C9 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		DEEAC21E2A0B91C400BCA5C9 /* NewsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsScreenView.swift; sourceTree = "<group>"; };
 		DEEAC2212A0B91F400BCA5C9 /* FeaturedDetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedDetailScreenView.swift; sourceTree = "<group>"; };
 		DEEAC2242A0B92DA00BCA5C9 /* ArticleListViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewScreen.swift; sourceTree = "<group>"; };
+		DEEAC2262A0D0D0D00BCA5C9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 		DEEAC2072A06BB1400BCA5C9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DEEAC2262A0D0D0D00BCA5C9 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				DE4274442980121F0003DCE3 /* DeclarativeAndRequestExampleApp.swift in Sources */,
 				DEEAC2172A0B911300BCA5C9 /* MainScreenView.swift in Sources */,
 				DEEAC2222A0B91F400BCA5C9 /* FeaturedDetailScreenView.swift in Sources */,
+				DEEAC2272A0D0D0D00BCA5C9 /* MainViewModel.swift in Sources */,
 				DEEAC2252A0B92DA00BCA5C9 /* ArticleListViewScreen.swift in Sources */,
 				DEEAC20F2A09DB6900BCA5C9 /* RealmAccessManager.swift in Sources */,
 				DEEAC2152A0B910400BCA5C9 /* GalleryScreenView.swift in Sources */,
