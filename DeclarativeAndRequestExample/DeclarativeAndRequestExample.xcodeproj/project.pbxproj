@@ -14,8 +14,6 @@
 		DE427455298012200003DCE3 /* DeclarativeAndRequestExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE427454298012200003DCE3 /* DeclarativeAndRequestExampleTests.swift */; };
 		DE42745F298012200003DCE3 /* DeclarativeAndRequestExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42745E298012200003DCE3 /* DeclarativeAndRequestExampleUITests.swift */; };
 		DE427461298012200003DCE3 /* DeclarativeAndRequestExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE427460298012200003DCE3 /* DeclarativeAndRequestExampleUITestsLaunchTests.swift */; };
-		DE42746F298013840003DCE3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DE42746E298013840003DCE3 /* Realm */; };
-		DE427471298013840003DCE3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE427470298013840003DCE3 /* RealmSwift */; };
 		DE427474298013CD0003DCE3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DE427473298013CD0003DCE3 /* SDWebImageSwiftUI */; };
 		DE427477298014950003DCE3 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE427476298014950003DCE3 /* Apollo */; };
 		DEB8DC022A0E83D700DFA8A7 /* NewsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8DC012A0E83D700DFA8A7 /* NewsEntity.swift */; };
@@ -30,7 +28,6 @@
 		DEB8DC182A12500C00DFA8A7 /* FeaturedDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8DC172A12500C00DFA8A7 /* FeaturedDetailViewModel.swift */; };
 		DEE2F6672A13860A00ED65AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6662A13860A00ED65AC /* AppDelegate.swift */; };
 		DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */; };
-		DEEAC1C129FFB59C00BCA5C9 /* CollectionViewPagingLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1C029FFB59C00BCA5C9 /* CollectionViewPagingLayout */; };
 		DEEAC20B2A07C3AC00BCA5C9 /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC20A2A07C3AC00BCA5C9 /* Parchment */; };
 		DEEAC20F2A09DB6900BCA5C9 /* RealmAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC20E2A09DB6900BCA5C9 /* RealmAccessManager.swift */; };
 		DEEAC2112A09DCC800BCA5C9 /* KeychainAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */; };
@@ -107,10 +104,7 @@
 				DE427474298013CD0003DCE3 /* SDWebImageSwiftUI in Frameworks */,
 				DE427477298014950003DCE3 /* Apollo in Frameworks */,
 				DEEAC20B2A07C3AC00BCA5C9 /* Parchment in Frameworks */,
-				DE427471298013840003DCE3 /* RealmSwift in Frameworks */,
-				DE42746F298013840003DCE3 /* Realm in Frameworks */,
 				DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */,
-				DEEAC1C129FFB59C00BCA5C9 /* CollectionViewPagingLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,12 +365,9 @@
 			);
 			name = DeclarativeAndRequestExample;
 			packageProductDependencies = (
-				DE42746E298013840003DCE3 /* Realm */,
-				DE427470298013840003DCE3 /* RealmSwift */,
 				DE427473298013CD0003DCE3 /* SDWebImageSwiftUI */,
 				DE427476298014950003DCE3 /* Apollo */,
 				DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */,
-				DEEAC1C029FFB59C00BCA5C9 /* CollectionViewPagingLayout */,
 				DEEAC20A2A07C3AC00BCA5C9 /* Parchment */,
 			);
 			productName = DeclarativeAndRequestExample;
@@ -452,11 +443,9 @@
 			);
 			mainGroup = DE4274372980121F0003DCE3;
 			packageReferences = (
-				DE42746D298013840003DCE3 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				DE427472298013CD0003DCE3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				DE427475298014950003DCE3 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				DEEAC1BC29FFB32B00BCA5C9 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
-				DEEAC1BF29FFB59C00BCA5C9 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */,
 				DEEAC2092A07C3AC00BCA5C9 /* XCRemoteSwiftPackageReference "Parchment" */,
 			);
 			productRefGroup = DE4274412980121F0003DCE3 /* Products */;
@@ -691,6 +680,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -719,6 +709,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -850,14 +841,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DE42746D298013840003DCE3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.34.1;
-			};
-		};
 		DE427472298013CD0003DCE3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
@@ -882,14 +865,6 @@
 				minimumVersion = 4.2.2;
 			};
 		};
-		DEEAC1BF29FFB59C00BCA5C9 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/amirdew/CollectionViewPagingLayout.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		DEEAC2092A07C3AC00BCA5C9 /* XCRemoteSwiftPackageReference "Parchment" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rechsteiner/Parchment.git";
@@ -901,16 +876,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DE42746E298013840003DCE3 /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE42746D298013840003DCE3 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		DE427470298013840003DCE3 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE42746D298013840003DCE3 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
 		DE427473298013CD0003DCE3 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DE427472298013CD0003DCE3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
@@ -925,11 +890,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DEEAC1BC29FFB32B00BCA5C9 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
 			productName = KeychainAccess;
-		};
-		DEEAC1C029FFB59C00BCA5C9 /* CollectionViewPagingLayout */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEAC1BF29FFB59C00BCA5C9 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */;
-			productName = CollectionViewPagingLayout;
 		};
 		DEEAC20A2A07C3AC00BCA5C9 /* Parchment */ = {
 			isa = XCSwiftPackageProductDependency;
