@@ -29,7 +29,6 @@
 		DEE2F6672A13860A00ED65AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6662A13860A00ED65AC /* AppDelegate.swift */; };
 		DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */; };
 		DEEAC20B2A07C3AC00BCA5C9 /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC20A2A07C3AC00BCA5C9 /* Parchment */; };
-		DEEAC20F2A09DB6900BCA5C9 /* RealmAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC20E2A09DB6900BCA5C9 /* RealmAccessManager.swift */; };
 		DEEAC2112A09DCC800BCA5C9 /* KeychainAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */; };
 		DEEAC2132A0B90D200BCA5C9 /* FavoriteScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2122A0B90D200BCA5C9 /* FavoriteScreenView.swift */; };
 		DEEAC2152A0B910400BCA5C9 /* GalleryScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2142A0B910400BCA5C9 /* GalleryScreenView.swift */; };
@@ -82,7 +81,6 @@
 		DEB8DC152A124FF400DFA8A7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		DEB8DC172A12500C00DFA8A7 /* FeaturedDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedDetailViewModel.swift; sourceTree = "<group>"; };
 		DEE2F6662A13860A00ED65AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEEAC20E2A09DB6900BCA5C9 /* RealmAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAccessManager.swift; sourceTree = "<group>"; };
 		DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAccessManager.swift; sourceTree = "<group>"; };
 		DEEAC2122A0B90D200BCA5C9 /* FavoriteScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteScreenView.swift; sourceTree = "<group>"; };
 		DEEAC2142A0B910400BCA5C9 /* GalleryScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryScreenView.swift; sourceTree = "<group>"; };
@@ -298,7 +296,6 @@
 		DEEAC20D2A09DB4D00BCA5C9 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				DEEAC20E2A09DB6900BCA5C9 /* RealmAccessManager.swift */,
 				DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */,
 			);
 			path = Infrastructure;
@@ -505,7 +502,6 @@
 				DEB8DC142A124FE600DFA8A7 /* UserEntity.swift in Sources */,
 				DEE2F6672A13860A00ED65AC /* AppDelegate.swift in Sources */,
 				DEB8DC0C2A0F871D00DFA8A7 /* GalleryViewModel.swift in Sources */,
-				DEEAC20F2A09DB6900BCA5C9 /* RealmAccessManager.swift in Sources */,
 				DEEAC2152A0B910400BCA5C9 /* GalleryScreenView.swift in Sources */,
 				DEEAC2112A09DCC800BCA5C9 /* KeychainAccessManager.swift in Sources */,
 				DEEAC2192A0B913D00BCA5C9 /* FeaturedScreenView.swift in Sources */,
