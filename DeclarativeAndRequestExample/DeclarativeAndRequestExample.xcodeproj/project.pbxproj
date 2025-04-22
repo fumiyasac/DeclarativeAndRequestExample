@@ -149,7 +149,6 @@
 				DE427447298012200003DCE3 /* Assets.xcassets */,
 				DE4274452980121F0003DCE3 /* ContentView.swift */,
 				DEE2F6652A1385EB00ED65AC /* App */,
-				DEE2F6642A13858500ED65AC /* DependencyInjection */,
 				DEEAC2062A0661AE00BCA5C9 /* Domain */,
 				DEEAC20D2A09DB4D00BCA5C9 /* Infrastructure */,
 				DEEAC2082A06BB2200BCA5C9 /* GraphQL */,
@@ -184,13 +183,6 @@
 				DE427460298012200003DCE3 /* DeclarativeAndRequestExampleUITestsLaunchTests.swift */,
 			);
 			path = DeclarativeAndRequestExampleUITests;
-			sourceTree = "<group>";
-		};
-		DEE2F6642A13858500ED65AC /* DependencyInjection */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DependencyInjection;
 			sourceTree = "<group>";
 		};
 		DEE2F6652A1385EB00ED65AC /* App */ = {
