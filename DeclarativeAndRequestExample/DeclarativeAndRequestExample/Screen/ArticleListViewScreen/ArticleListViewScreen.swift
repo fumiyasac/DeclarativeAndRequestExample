@@ -13,8 +13,6 @@ struct ArticleListViewScreen: View {
     }
 }
 
-struct ArticleListViewScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        ArticleListViewScreen()
-    }
+#Preview {
+    ArticleListViewScreen()
 }
