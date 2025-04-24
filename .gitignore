@@ -1,20 +1,12 @@
 # Xcode (from gitignore.io)
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
 
 # Others
 *.swp
@@ -22,4 +14,10 @@ DerivedData
 .DS_Store
 
 # このプロジェクト独自のもの
-/DeclarativeAndRequestExample/Pods/*
+
+# Docker
+Docker/.env
+
+# Prisma
+Backend/node_modules
+Backend/.env
