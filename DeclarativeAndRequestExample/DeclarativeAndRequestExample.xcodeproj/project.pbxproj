@@ -30,9 +30,7 @@
 		DEB8DC142A124FE600DFA8A7 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8DC132A124FE600DFA8A7 /* UserEntity.swift */; };
 		DEB8DC182A12500C00DFA8A7 /* FeaturedDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8DC172A12500C00DFA8A7 /* FeaturedDetailViewModel.swift */; };
 		DEE2F6672A13860A00ED65AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6662A13860A00ED65AC /* AppDelegate.swift */; };
-		DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */; };
 		DEEAC20B2A07C3AC00BCA5C9 /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC20A2A07C3AC00BCA5C9 /* Parchment */; };
-		DEEAC2112A09DCC800BCA5C9 /* KeychainAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */; };
 		DEEAC2132A0B90D200BCA5C9 /* FavoriteScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2122A0B90D200BCA5C9 /* FavoriteScreenView.swift */; };
 		DEEAC2152A0B910400BCA5C9 /* GalleryScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2142A0B910400BCA5C9 /* GalleryScreenView.swift */; };
 		DEEAC2172A0B911300BCA5C9 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAC2162A0B911300BCA5C9 /* MainScreenView.swift */; };
@@ -86,7 +84,6 @@
 		DEB8DC132A124FE600DFA8A7 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		DEB8DC172A12500C00DFA8A7 /* FeaturedDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedDetailViewModel.swift; sourceTree = "<group>"; };
 		DEE2F6662A13860A00ED65AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAccessManager.swift; sourceTree = "<group>"; };
 		DEEAC2122A0B90D200BCA5C9 /* FavoriteScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteScreenView.swift; sourceTree = "<group>"; };
 		DEEAC2142A0B910400BCA5C9 /* GalleryScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryScreenView.swift; sourceTree = "<group>"; };
 		DEEAC2162A0B911300BCA5C9 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
@@ -106,7 +103,6 @@
 				DE427474298013CD0003DCE3 /* SDWebImageSwiftUI in Frameworks */,
 				DE427477298014950003DCE3 /* Apollo in Frameworks */,
 				DEEAC20B2A07C3AC00BCA5C9 /* Parchment in Frameworks */,
-				DEEAC1BE29FFB32B00BCA5C9 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +298,6 @@
 		DEEAC20D2A09DB4D00BCA5C9 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				DEEAC2102A09DCC800BCA5C9 /* KeychainAccessManager.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -362,7 +357,6 @@
 			packageProductDependencies = (
 				DE427473298013CD0003DCE3 /* SDWebImageSwiftUI */,
 				DE427476298014950003DCE3 /* Apollo */,
-				DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */,
 				DEEAC20A2A07C3AC00BCA5C9 /* Parchment */,
 			);
 			productName = DeclarativeAndRequestExample;
@@ -440,7 +434,6 @@
 			packageReferences = (
 				DE427472298013CD0003DCE3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				DE427475298014950003DCE3 /* XCRemoteSwiftPackageReference "apollo-ios" */,
-				DEEAC1BC29FFB32B00BCA5C9 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				DEEAC2092A07C3AC00BCA5C9 /* XCRemoteSwiftPackageReference "Parchment" */,
 			);
 			productRefGroup = DE4274412980121F0003DCE3 /* Products */;
@@ -502,7 +495,6 @@
 				DEE2F6672A13860A00ED65AC /* AppDelegate.swift in Sources */,
 				DEB8DC0C2A0F871D00DFA8A7 /* GalleryViewModel.swift in Sources */,
 				DEEAC2152A0B910400BCA5C9 /* GalleryScreenView.swift in Sources */,
-				DEEAC2112A09DCC800BCA5C9 /* KeychainAccessManager.swift in Sources */,
 				DEEAC2192A0B913D00BCA5C9 /* FeaturedScreenView.swift in Sources */,
 				DEB8DC102A112B5800DFA8A7 /* FeaturedViewModel.swift in Sources */,
 				DEB8DC082A0F86C500DFA8A7 /* ArticleViewModel.swift in Sources */,
@@ -728,7 +720,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.just1factory.DeclarativeAndRequestExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -748,7 +740,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.just1factory.DeclarativeAndRequestExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -767,6 +759,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.just1factory.DeclarativeAndRequestExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -785,6 +778,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.just1factory.DeclarativeAndRequestExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -853,14 +847,6 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		DEEAC1BC29FFB32B00BCA5C9 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.2.2;
-			};
-		};
 		DEEAC2092A07C3AC00BCA5C9 /* XCRemoteSwiftPackageReference "Parchment" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rechsteiner/Parchment.git";
@@ -881,11 +867,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE427475298014950003DCE3 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
-		};
-		DEEAC1BD29FFB32B00BCA5C9 /* KeychainAccess */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEAC1BC29FFB32B00BCA5C9 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
-			productName = KeychainAccess;
 		};
 		DEEAC20A2A07C3AC00BCA5C9 /* Parchment */ = {
 			isa = XCSwiftPackageProductDependency;

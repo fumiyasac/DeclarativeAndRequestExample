@@ -10,7 +10,7 @@ import UIKit
 // UIViewControllerの拡張
 extension UIViewController {
 
-    // MARK: - Public Function
+    // MARK: -  Function
 
     // この画面のナビゲーションバーを設定するメソッド
     func setupNavigationBarTitle(_ title: String) {
