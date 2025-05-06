@@ -161,6 +161,13 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		DE6F4E612DC9A339004D7495 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		DEE2F6652A1385EB00ED65AC /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +196,7 @@
 			children = (
 				DEEAC22A2A0D0E1900BCA5C9 /* Entity */,
 				DEEAC20C2A09DABE00BCA5C9 /* Repository */,
+				DE6F4E612DC9A339004D7495 /* Request */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
