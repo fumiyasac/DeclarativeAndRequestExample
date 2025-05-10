@@ -20,6 +20,8 @@
 		DE6F4E5C2DBCAD8C004D7495 /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F4E5B2DBCAD8C004D7495 /* SwiftUIColorExtension.swift */; };
 		DE6F4E5E2DBCAEE2004D7495 /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F4E5D2DBCAEE2004D7495 /* FirstAppearExtension.swift */; };
 		DE6F4E602DBCAF5B004D7495 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F4E5F2DBCAF55004D7495 /* UIViewControllerExtension.swift */; };
+		DE6F4E632DCF47A6004D7495 /* GraphQLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F4E622DCF47A6004D7495 /* GraphQLClient.swift */; };
+		DE6F4E652DCF4AD4004D7495 /* ApolloClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F4E642DCF4AD4004D7495 /* ApolloClientExtension.swift */; };
 		DEE2F6672A13860A00ED65AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6662A13860A00ED65AC /* AppDelegate.swift */; };
 		DEEAC20B2A07C3AC00BCA5C9 /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = DEEAC20A2A07C3AC00BCA5C9 /* Parchment */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,8 @@
 		DE6F4E5B2DBCAD8C004D7495 /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
 		DE6F4E5D2DBCAEE2004D7495 /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
 		DE6F4E5F2DBCAF55004D7495 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		DE6F4E622DCF47A6004D7495 /* GraphQLClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLClient.swift; sourceTree = "<group>"; };
+		DE6F4E642DCF4AD4004D7495 /* ApolloClientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClientExtension.swift; sourceTree = "<group>"; };
 		DEE2F6662A13860A00ED65AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,6 +229,8 @@
 		DEEAC20D2A09DB4D00BCA5C9 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				DE6F4E622DCF47A6004D7495 /* GraphQLClient.swift */,
+				DE6F4E642DCF4AD4004D7495 /* ApolloClientExtension.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -305,7 +311,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					DE42743F2980121F0003DCE3 = {
 						CreatedOnToolsVersion = 14.2;
@@ -380,7 +386,9 @@
 				DE6F4E5C2DBCAD8C004D7495 /* SwiftUIColorExtension.swift in Sources */,
 				DE4274442980121F0003DCE3 /* DeclarativeAndRequestExampleApp.swift in Sources */,
 				DE6F4E582DBC8504004D7495 /* UIColorExtension.swift in Sources */,
+				DE6F4E632DCF47A6004D7495 /* GraphQLClient.swift in Sources */,
 				DEE2F6672A13860A00ED65AC /* AppDelegate.swift in Sources */,
+				DE6F4E652DCF4AD4004D7495 /* ApolloClientExtension.swift in Sources */,
 				DE6F4E602DBCAF5B004D7495 /* UIViewControllerExtension.swift in Sources */,
 				DE6F4E5E2DBCAEE2004D7495 /* FirstAppearExtension.swift in Sources */,
 			);
@@ -453,8 +461,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S5BF5553KY;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -513,8 +523,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = S5BF5553KY;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -541,7 +553,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DeclarativeAndRequestExample/Preview Content\"";
-				DEVELOPMENT_TEAM = S5BF5553KY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -570,7 +581,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DeclarativeAndRequestExample/Preview Content\"";
-				DEVELOPMENT_TEAM = S5BF5553KY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -594,11 +604,9 @@
 		DE427468298012200003DCE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S5BF5553KY;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
@@ -614,11 +622,9 @@
 		DE427469298012200003DCE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S5BF5553KY;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
@@ -634,10 +640,8 @@
 		DE42746B298012200003DCE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S5BF5553KY;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
@@ -653,10 +657,8 @@
 		DE42746C298012200003DCE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S5BF5553KY;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
