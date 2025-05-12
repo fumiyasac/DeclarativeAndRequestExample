@@ -1,5 +1,5 @@
 {
-  "originHash" : "338f5a838b8055d0b265002900fca12a7ec5a5145f1357850fabfb2870877c77",
+  "originHash" : "421dd0cc9fae7ddb1e0bfdec722ea235f990b50aca4b587a348f7dc012963cac",
   "pins" : [
     {
       "identity" : "apollo-ios",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "6ecc75281dab2fa231cb0d5fed3a3713826fecae",
         "version" : "1.21.0"
+      }
+    },
+    {
+      "identity" : "cosmos",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/evgenyneu/Cosmos.git",
+      "state" : {
+        "revision" : "40ba10aaf175bf50abefd0e518bd3b40862af3b1",
+        "version" : "25.0.1"
       }
     },
     {

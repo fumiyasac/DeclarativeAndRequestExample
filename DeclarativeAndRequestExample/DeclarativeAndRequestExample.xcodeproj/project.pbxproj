@@ -175,6 +175,20 @@
 			path = Request;
 			sourceTree = "<group>";
 		};
+		DE6F4E6A2DD2247E004D7495 /* Mutation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mutation;
+			sourceTree = "<group>";
+		};
+		DE6F4E6B2DD2248C004D7495 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
 		DEE2F6652A1385EB00ED65AC /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +232,8 @@
 		DEEAC2082A06BB2200BCA5C9 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				DE6F4E6B2DD2248C004D7495 /* Query */,
+				DE6F4E6A2DD2247E004D7495 /* Mutation */,
 			);
 			path = GraphQL;
 			sourceTree = "<group>";
@@ -342,6 +358,7 @@
 				DE427472298013CD0003DCE3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				DE427475298014950003DCE3 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				DEEAC2092A07C3AC00BCA5C9 /* XCRemoteSwiftPackageReference "Parchment" */,
+				DE6F4E6C2DD224F5004D7495 /* XCRemoteSwiftPackageReference "Cosmos" */,
 			);
 			productRefGroup = DE4274412980121F0003DCE3 /* Products */;
 			projectDirPath = "";
@@ -731,6 +748,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
+			};
+		};
+		DE6F4E6C2DD224F5004D7495 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 25.0.1;
 			};
 		};
 		DEEAC2092A07C3AC00BCA5C9 /* XCRemoteSwiftPackageReference "Parchment" */ = {
